@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="13770" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+    <device id="retina4_7" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="13770"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner" customClass="WebViewController" customModule="BeautyClient" customModuleProvider="target">
+            <connections>
+                <outlet property="noNetBtn" destination="bZA-SN-5d1" id="T5R-Bd-Odg"/>
+                <outlet property="view" destination="i5M-Pr-FkT" id="sfx-zR-JGt"/>
+                <outlet property="webView" destination="L7h-Mn-rvk" id="upA-Hm-Zq3"/>
+            </connections>
+        </placeholder>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <view clearsContextBeforeDrawing="NO" contentMode="scaleToFill" id="i5M-Pr-FkT">
+            <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+            <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+            <subviews>
+                <webView contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="L7h-Mn-rvk">
+                    <rect key="frame" x="0.0" y="20" width="375" height="647"/>
+                    <color key="backgroundColor" red="0.36078431370000003" green="0.38823529410000002" blue="0.4039215686" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                </webView>
+                <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="bZA-SN-5d1">
+                    <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                    <color key="backgroundColor" red="0.98056861127437545" green="1" blue="0.98851799445673505" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                    <state key="normal" image="network"/>
+                    <connections>
+                        <action selector="onNetTipsPressed:" destination="-1" eventType="touchUpInside" id="6CP-Y4-Q6R"/>
+                    </connections>
+                </button>
+            </subviews>
+            <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+            <constraints>
+                <constraint firstItem="bZA-SN-5d1" firstAttribute="bottom" secondItem="fnl-2z-Ty3" secondAttribute="bottom" id="09o-gK-S7E"/>
+                <constraint firstItem="bZA-SN-5d1" firstAttribute="leading" secondItem="L7h-Mn-rvk" secondAttribute="leading" id="1Pe-Ci-alU"/>
+                <constraint firstItem="bZA-SN-5d1" firstAttribute="top" secondItem="i5M-Pr-FkT" secondAttribute="top" id="1eT-pQ-L90"/>
+                <constraint firstItem="bZA-SN-5d1" firstAttribute="trailing" secondItem="L7h-Mn-rvk" secondAttribute="trailing" id="1k3-eW-t1E"/>
+                <constraint firstItem="L7h-Mn-rvk" firstAttribute="top" secondItem="fnl-2z-Ty3" secondAttribute="top" id="4oF-KU-Mrk"/>
+                <constraint firstAttribute="trailing" secondItem="bZA-SN-5d1" secondAttribute="trailing" id="LVF-90-xP7"/>
+                <constraint firstItem="bZA-SN-5d1" firstAttribute="bottom" secondItem="L7h-Mn-rvk" secondAttribute="bottom" id="SNY-qz-7Hp"/>
+                <constraint firstItem="bZA-SN-5d1" firstAttribute="leading" secondItem="i5M-Pr-FkT" secondAttribute="leading" id="ut5-Hc-vce"/>
+            </constraints>
+            <viewLayoutGuide key="safeArea" id="fnl-2z-Ty3"/>
+            <point key="canvasLocation" x="24.5" y="52.5"/>
+        </view>
+    </objects>
+    <resources>
+        <image name="network" width="100" height="100"/>
+    </resources>
+</document>
