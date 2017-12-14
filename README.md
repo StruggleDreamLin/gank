@@ -15,9 +15,7 @@
 ## 应用展示
 
 ![](https://github.com/StruggleDreamLin/gank/blob/master/gif/loadinggirl.gif)
-
 ![](https://github.com/StruggleDreamLin/gank/blob/master/gif/detailgirl.gif)
 
 ![](https://github.com/StruggleDreamLin/gank/blob/master/gif/techsloading.gif)
-
 ![](https://github.com/StruggleDreamLin/gank/blob/master/gif/searching.gif)
