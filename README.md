@@ -10,7 +10,7 @@
 - [ESPullToRefresh](https://github.com/eggswift/pull-to-refresh)
 
 ## 感谢数据提供
-- [干货集中营](http://gank/io)
+- [干货集中营](http://gank.io)
 
 ## 应用展示
 - 妹纸
